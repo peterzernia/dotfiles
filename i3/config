@@ -227,4 +227,9 @@ exec_always ~/Applications/Nextcloud.AppImage
 exec --no-startup-id dunst
 exec --no-startup-id /usr/bin/xfce4-power-manager
 exec_always sleep 2 && kmonad ~/.config/kmonad/config.kbd
+exec_always picom --config ~/.config/picom/picom.conf
 
+# i3-gaps
+# for_window [class=".*"] border pixel 2
+# gaps inner 15
+# gaps outer 15
