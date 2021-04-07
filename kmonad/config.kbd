@@ -26,6 +26,7 @@
     ;rm (tap-hold-next-release 200 ; rmet)
 
     spc (layer-toggle special)
+    arr (layer-toggle arrowkeys)
 
     ä #(cmp " a)
     ö #(cmp " o)
@@ -39,7 +40,7 @@
   tab  q    w    e    r    t    y    u    i    o    p    [    ]    \
   esc  @alm @sla @dlc @fls g    h    @jrs @krc @lra @;rm '    ret
   lsft z    x    c    v    b    n    m    ,    .    /    rsft up
-  lctl cmp  lmet @spc           spc            ralt rctl left down rght
+  lctl cmp  lmet @spc           spc            @arr rctl left down rght
 )
 
 (deflayer special
@@ -47,6 +48,15 @@
   _    _    _    _    _    _    _    _    _    _    _    _    _    _
   _    _    _    _    _    _    _    _    _    _    _    _    _    _
   caps ä    ö    ü    @ß   _    _    -    =    \(   \)   _    _
+  _    _    _    _    _    _    _    _    _    _    _    _    _
+  _    _    _    _              _              _    _    _    _    _
+)
+
+(deflayer arrowkeys
+  _    _    _    _    _    _    _    _    _    _    _    _    _
+  _    _    _    _    _    _    _    _    _    _    _    _    _    _
+  _    _    _    up   _    _    _    _    _    _    _    _    _    _
+  _    _    left down rght _    _    home pgdn pgup end  _    _
   _    _    _    _    _    _    _    _    _    _    _    _    _
   _    _    _    _              _              _    _    _    _    _
 )
