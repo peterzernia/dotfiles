@@ -1,0 +1,11 @@
+# blacklist
+/*
+
+# whitelist
+!.gitignore
+!autorandr
+!dunst
+!fish
+!i3
+!i3blocks
+!kmonad

@@ -1,0 +1,22 @@
+output DP2
+off
+output DP4
+off
+output VIRTUAL1
+off
+output DP1
+crtc 1
+mode 1920x1080
+pos 0x0
+rate 60.00
+output DP3
+crtc 2
+mode 1920x1080
+pos 1920x0
+rate 60.00
+output eDP1
+crtc 0
+mode 1680x1050
+pos 1077x1080
+primary
+rate 60.00
