@@ -46,7 +46,7 @@ bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+Shift+apostrophe kill
 
 # start dmenu (a program launcher)
-bindsym $mod+e exec --no-startup-id dmenu_run
+bindsym $mod+e exec --no-startup-id rofi -show drun -show-icons
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec rofi -modi drun,run -show drun
 # There also is i3-dmenu-desktop which only displays applications shipping a
@@ -223,10 +223,11 @@ bindsym --release $mod+Print exec import ~/Pictures/screenshot_`date +"%Y_%m_%d_
 # Set display
 exec_always xrandr --output eDP1 --mode 1680x1050
 exec_always feh --bg-scale /usr/share/backgrounds/underwater_nord.png
-exec_always ~/Applications/Nextcloud.AppImage 
+exec_always ~/Applications/Nextcloud.AppImage
 exec --no-startup-id dunst
 exec --no-startup-id /usr/bin/xfce4-power-manager
 exec_always sleep 2 && kmonad ~/.config/kmonad/config.kbd
+exec_always sleep 2 && kmonad ~/.config/kmonad/annepro2.kbd
 exec_always picom --config ~/.config/picom/picom.conf
 
 # i3-gaps
