@@ -220,6 +220,9 @@ bindsym XF86AudioPrev exec playerctl previous
 # Screenshot
 bindsym --release $mod+Print exec import ~/Pictures/screenshot_`date +"%Y_%m_%d_%T"`.png
 
+# Kill gpu
+bindsym $mod+Escape exec fish -c kill-gpu
+
 # Set display
 exec_always xrandr --output eDP1 --mode 1680x1050
 exec_always feh --bg-scale /usr/share/backgrounds/underwater_nord.png
