@@ -226,7 +226,7 @@ bindsym $mod+Escape exec fish -c kill-gpu
 # Set display
 exec_always xrandr --output eDP1 --mode 1680x1050
 exec_always feh --bg-scale /usr/share/backgrounds/underwater_nord.png
-exec_always ~/Applications/Nextcloud.AppImage
+exec ~/Applications/Nextcloud.AppImage
 exec --no-startup-id dunst
 exec --no-startup-id /usr/bin/xfce4-power-manager
 exec_always sleep 2 && kmonad ~/.config/kmonad/config.kbd
