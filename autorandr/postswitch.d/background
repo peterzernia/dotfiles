@@ -1,2 +1,2 @@
 #!/usr/bin/env sh
-feh --bg-scale /usr/share/backgrounds/underwater_nord.png
+feh --bg-scale /usr/share/backgrounds/nord.png
