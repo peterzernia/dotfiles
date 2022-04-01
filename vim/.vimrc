@@ -1,1 +1,0 @@
-/Users/peterzernia/.vimrc
